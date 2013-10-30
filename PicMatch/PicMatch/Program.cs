@@ -15,8 +15,8 @@ namespace PicMatch
         static void Main(string[] args)
         {
 
-            var image1 = new Bitmap(@"D:\GitHub\PicMatch\PicMatch\PicMatch\images\Bitmap1.bmp", false);
-            var image2 = new Bitmap(@"D:\GitHub\PicMatch\PicMatch\PicMatch\images\Bitmap2.bmp", false);
+            var image1 = new Bitmap(@"D:\GitHub\PicMatch\PicMatch\PicMatch\images\Bitmap2.bmp", false);
+            var image2 = new Bitmap(@"D:\GitHub\PicMatch\PicMatch\PicMatch\images\Bitmap1.bmp", false);
 
 //The class also can be used to get similarity level between two image of the same size, which can be useful to get information about how different/similar are images: 
 // create template matching algorithm's instance
