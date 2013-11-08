@@ -58,8 +58,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="images\" />
+    <Content Include="images\Bitmap1.bmp" />
+    <Content Include="images\Bitmap2.bmp" />
+    <Content Include="images\Bitmap3.bmp" />
+    <Content Include="images\Bitmap4.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
