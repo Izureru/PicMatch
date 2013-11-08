@@ -14,10 +14,11 @@ namespace PicMatch
     {
         private static void Main(string[] args)
         {
-            var image1 = new Bitmap(@"D:\Bitmap1.bmp", false);
-            var image2 = new Bitmap(@"D:\Bitmap2.bmp", false);
-            var image3 = new Bitmap(@"D:\Bitmap3.bmp", false);
-            var image4 = new Bitmap(@"D:\Bitmap4.bmp", false);
+            
+            var image1 = new Bitmap(@"..\..\images\Bitmap1.bmp", false);
+            var image2 = new Bitmap(@"..\..\images\Bitmap2.bmp", false);
+            var image3 = new Bitmap(@"..\..\images\Bitmap3.bmp", false);
+            var image4 = new Bitmap(@"..\..\images\Bitmap4.bmp", false);
 
             // create template matching algorithm's instance
             // use zero similarity to make sure algorithm will provide anything
